@@ -1,0 +1,46 @@
+.header
+  max-width: 1146px
+  margin: 0 auto
+  padding-top: 30px
+.navbar
+  display: flex
+  align-items: center
+  justify-content: space-between
+  margin-bottom: 24px
+  &-menu
+    margin-right: auto
+.menu
+  display: flex
+  list-style: none
+  margin: 0
+  padding-left: 22px
+  padding-right: 22px
+  &-link
+    text-decoration: none
+  &-item
+    &:not(:last-child)
+      margin-right: 14px
+.search
+  &-panel
+    display: flex
+    padding: 3px
+    height: 50px
+    border-radius: 5px
+    background: $color-blue
+  &-input
+    flex-grow: 1
+    border-radius: 5px
+    border: none
+    background: $color-white
+    padding-left: 22px
+    padding-right: 22px
+  &-button
+    display: flex
+    align-items: center
+    background: $color-blue
+    border: none
+    color: $color-white
+    padding-right: 17px
+    padding-left: 20px
+    &-text
+      margin-left: 5px
