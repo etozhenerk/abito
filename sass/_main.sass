@@ -1,0 +1,46 @@
+.card
+  margin-bottom: 20px
+  &:not(:nth-child(3n))
+    margin-right: 20px
+  &-link
+    text-decoration: none
+  &-image
+    border-radius: 10px
+    width: 264px
+    height: 178px
+    object-fit: cover
+  &s
+    display: flex
+    flex-wrap: wrap
+    justify-content: start
+  &-header
+    display: flex
+    justify-content: space-between
+    align-items: center
+    max-width: 264px
+  &-title
+    font-size: 16px
+    line-height: 19px
+    color: $color-blue
+    margin-top: 12px
+    margin-bottom: 5px
+    width: 200px
+    overflow: hidden
+    white-space: nowrap
+    text-overflow: ellipsis
+  &-price
+    display: block
+    font-size: 16px
+    line-height: 19px
+    margin-bottom: 10px
+  &-text
+    color: $color-gray
+    font-size: 14px
+    line-height: 16px
+    margin-bottom: 4px
+    margin-top: 0
+.like
+  background-color: $color-white
+  border: none
+  cursor: pointer
+  margin-left: 15px
