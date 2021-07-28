@@ -32,6 +32,58 @@ a {
   border-radius: 5px;
   color: #FFFFFF;
 }
+.button-block {
+  display: block;
+  width: 100%;
+  height: 54px;
+  margin-bottom: 14px;
+  border: none;
+}
+.button-succes {
+  background-color: #14B4BE;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 3px;
+}
+
+.mySwiper2 {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.mySwiper {
+  height: 20%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px 0;
+}
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+  border-radius: 10px;
+}
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
 
 .header {
   padding-top: 30px;
@@ -112,6 +164,19 @@ a {
   grid-template-columns: 9fr 3fr;
   grid-column-gap: 30px;
 }
+.page-title {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.main-single {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
 
 .card {
   margin-bottom: 20px;
@@ -181,6 +246,69 @@ a {
   border: none;
   cursor: pointer;
   margin-left: 15px;
+}
+
+.content {
+  max-width: 460px;
+  margin-right: 30px;
+}
+.content-text {
+  font-size: 14px;
+  line-height: 140%;
+  color: #0A143A;
+}
+
+.author {
+  min-width: 264px;
+}
+.author-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.author-avatar {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.author-name {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #0A143A;
+  margin-bottom: 4px;
+}
+.author-status {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.rating {
+  margin-bottom: 5px;
+}
+.rating-counter {
+  margin-left: 10px;
+  color: #0A143A;
+  opacity: 0.5;
+}
+
+.single-price {
+  font-size: 24px;
+  line-height: 28px;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 25px;
 }
 
 .service {
